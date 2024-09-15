@@ -48,7 +48,7 @@ body > header > nav > ul > li > a {
 }
 
 body > main article{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -62,12 +62,21 @@ body > main article{
 }
 
 #main-content > aside{
-    width: 20%;
+    width: 30%;
     margin-left: 40px;
 }
 
 #tip{
     padding-left: 12px;
+}
+
+
+#main-content > aside > section > h3{
+    text-align: center;
+}    
+
+#tip > h3{
+    text-align: center;
 }
 
 #main-content > aside > section{
@@ -81,13 +90,8 @@ body > main article{
     background-color: rgb(235, 214, 255);
 }
 
-#main-content > aside > section > h4{
-    text-align: center;
-}    
-
 #ingredient-list > li > a{
     color: black;
-    text-decoration: none;
 }
 
 #main-header > h2{
@@ -117,9 +121,26 @@ form{
     text-align: center;
 }
 
+#form{
+    background-color:rgb(235, 214, 255);
+}
+
 body > footer{
-    background-color: orange;
+    background-color: rgb(246, 123, 255);
     display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body > footer > h2{
+    font-family: 'Lobster', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 8px;
 }
 
 body > footer > section > nav > ul{
@@ -134,4 +155,7 @@ body > footer > section > nav > ul > div > li{
 body > footer > section > nav > ul > div > li > a{
     color: white;
     text-decoration: none;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 40%;
 }
