@@ -1,5 +1,7 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Capriola", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0px;
     font-size: 1.5vw;
 }
@@ -46,7 +48,7 @@ body > header > nav > ul > li > a {
 }
 
 body > main article{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -61,7 +63,7 @@ body > main article{
 
 #main-content > aside{
     width: 20%;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 #tip{
@@ -96,6 +98,11 @@ body > main article{
 #main-header > div{
     display: flex;
     justify-content: space-evenly;
+}
+
+#article-footer{
+    display: flex;
+    justify-content: space-around;
 }
 
 img{
