@@ -118,11 +118,17 @@ h2{
 }
 
 form{
-    text-align: center;
+    text-align: left;
 }
 
 #form{
     background-color:rgb(235, 214, 255);
+}
+
+#form > form {
+    width: 80%;
+    text-align: left;
+    margin-left: 35%;
 }
 
 body > footer{
